@@ -1,3 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');rel="stylesheet"";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;ç
+  background-color: #E5E5E5;
+}
+
+h1, h2, h3, {
+  font-family: 'Roboto';
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#circle {
+  size: 20px;
+}
+  
+button {
+  width: 150px;
+  height: 52px;
+  Top: 70px;
+  left: 1120px;
+  padding: 15px, 36px;
+  gap: 10px;
+  color: #072AC8;
+}
+
+#heroSection h1{
+  font-weight: 700;
+  color: #514D67;
+}
+
+#clientSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #e5e5e5;
+}
+
+#clientSection #logos{
+  /*blanco-negro*/
+}
+
+#Projects {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 650px) and (max-width: 999px) {
     .responsive-div {
       background-color: ;
