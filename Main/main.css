@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
+    box-sizing: border-box;
 }
 
 /* Colors:
@@ -23,12 +24,13 @@ body{
   flex-direction: column;
   justify-content: center;
   background-color: #E5E5E5;
+  padding-left: 5em;
 }
 
 header {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 100em;
   height: 4em;
   top: 2px;
   font-family: 'Roboto';
@@ -41,9 +43,9 @@ header {
   gap: 50em;
   width: 100em;
   padding-top: 70px;
-  padding-left: 171px;
   padding-bottom: 266px; 
   /* position: sticky; */
+  /*separacion entre circle y nav.bar*/
   align-items: space-between;
   text-shadow: 1px 1px 2px #6B708D;
 
@@ -51,7 +53,6 @@ header {
 header div img {
   size: 6em;
   top: 86,91px;
-  left: 170,64px;
 }
 
 .topNav {
@@ -60,7 +61,7 @@ header div img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 4em;
+  gap: 10em;
   font-size: 1,5em;
   color: #072AC8;
 }
@@ -70,13 +71,12 @@ header div img {
   align-items: right;
   width: 8em;
   height: 3em;
-  gap: 10px;
-  padding: 25px;
+  gap: 20em;
+  padding: 1,5em;
   background-color: #072AC8;
   color: #E5E5E5;
   border: #072AC8;
   font-size: 1,5em;
-  left: 1120px;
   top: 70px;
 
 }
