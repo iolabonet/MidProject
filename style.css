@@ -134,6 +134,16 @@ button.nav-button{
   height: 35%;
 }
 
+.testimonial-Section {
+  width: 60%;
+  height: 100%;
+  background-image: url(./Assets/testimonial-section/orbit.png);
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: [col-1] 50% [col-2] 50%; 
+}
 
 
 
