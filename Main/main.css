@@ -16,8 +16,8 @@
 #6B708D
 #F2F4FC
 #ECF7FF
-#FFC600
-*/
+#FFC600 */
+
 
 body{
   display: flex;
@@ -89,7 +89,7 @@ h3{
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  color: #514D67; 
+   
 }
 
 h4{
@@ -99,19 +99,35 @@ h4{
   color: #514D67;
 }
 
-.bI24{
-  font-weight: 500;
+   {
   font-size: 24px;
-  line-height: 28px;
-  color: #292E47;
-}
-.hR17{
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 25px;
-  color: #6B708D;
+  font-weight: 500;
 }
 
+.body-intro-regular {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.headline-text-medium {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.headline-text-regular {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.caption1-regular {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.caption2-regular {
+  font-size: 13px;
+  font-weight: 400;
+}
 
 
 /*targetsProjects{

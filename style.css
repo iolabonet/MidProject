@@ -132,20 +132,55 @@ button.nav-button{
   height: 240px;
 }
 
-.testimonial-Section {
+.testimonialS {
   max-width: 1320px;
   height: 100%;
+  background-color: #292E47;
   background-image: url(./Assets/testimonial-section/orbit.png);
   background-size: contain; 
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
+  align-items: 20%, 60%, 20%;
+}  
+
+.col-1 {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col-3 {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.testimonialS .col-2 h3 {
+  color: #F4F6FC; 
 }
 
+.yellowP{
+  color: #FFC600;
+}
+
+
+
+.testimonialS .col-3{
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.col-2{
+  align-items: center;
+  justify-content: space-between;
+}
+.col-2 img{
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+}
+
+/* 
 .roundEmoji {
   max-width: 100%;
-}
+}  */
 
 
 
