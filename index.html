@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MidProject</title>
-    <link rel="stylesheet" href="./Main/main.css" />
+    <link rel="stylesheet" type="text/css" href="./Main/main.css">
     <link rel="stylesheet" href="./style.css" />
 </head>
 
@@ -54,21 +54,27 @@
         <div class="projects-area">
             <div class="targetProject">
                 <img class="targetsImatge" src="./Assets/projects-section/1.jpg">
-                <p class="bIM-24">Simplify</p>
-                <p class="hR1">UI Design & App Development</p>
-                <a class="buttonlearnMore" href="#simplify">Learn more</a>
+                <div class="targetProjectText">
+                    <p class="bIM-24">Simplify</p>
+                    <p class="hR1">UI Design & App Development</p>
+                    <a class="buttonlearnMore" href="#simplify">Learn more</a>
+                </div>
             </div>
             <div class="targetProject">
                 <img class="targetsImatge" src="./Assets/projects-section/2.jpg">
-                <p class="bIM-24">Dashcoin</p>
-                <p class="hR1">Web Development</p>
-                <a class="buttonlearnMore" href="#dashcoin">Learn more</a>
+                <div class="targetProjectText">
+                    <p class="bIM-24">Dashcoin</p>
+                    <p class="hR1">Web Development</p>
+                    <a class="buttonlearnMore" href="#dashcoin">Learn more</a>
+                </div>
             </div>
             <div class="targetProject">
                 <img class="targetsImatge" src="./Assets/projects-section/3.jpg">
-                <p class="bIM-24">Vectorify</p>
-                <p class="headline-text-medium">User Experience Design</p>
-                <a class="buttonlearnMore" href="#vectorify">Learn more</a>
+                <div class="targetProjectText">
+                    <p class="bIM-24">Vectorify</p>
+                    <p class="headline-text-medium">User Experience Design</p>
+                    <a class="buttonlearnMore" href="#vectorify">Learn more</a>
+                </div>
             </div>
         </div>
     </section>
@@ -130,7 +136,8 @@
                 <p class="bIR-20">Let us help you!</p>
                 <form class="formContact">
                     <div class="formMail">
-                        <input type="email" name="formContact" placeholder="Enter your email">
+                        <input type="email" name="formContact" placeholder="Enter your email"> 
+                        <!-- TO DO: Meter icono del sobre en placeholder. -->
                         <img src="./Assets/newsletter/icon/mail.svg" alt="email">
                     </div>
                     <button type="submit" class="btnForm">Subscribe</button>
