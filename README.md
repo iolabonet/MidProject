@@ -7,3 +7,14 @@ El objetivo de este MidProject es duplicar con la mayor exactitud posible la web
 ## Daily Project:
 Week 6:
 Crear el repo, los archivos, las ramas develop y home, rellenar el README y sincronizarlo con GitHub.
+Crear home page, main css y style css.
+Muchas dificultades con el css y con git hub.
+
+Week 7:
+Desarollar la home page y css.
+Momentos desesperantes y frustrantes.
+Cambio de pc.
+Finalizada la home y el css, pendiente de resolver pequeñas dudas.
+
+Week 8:
+Crear rama project junto con html y css.
