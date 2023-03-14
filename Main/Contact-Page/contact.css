@@ -1,0 +1,51 @@
+.pageContact{
+    display: flex;
+    max-width: 1440px;
+}
+.contactForm{
+    max-width: 1100px;
+    display: flex;
+}
+
+.formContainer{
+    display: flex;
+}
+
+.formRow{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.email-dates{
+    display: flex;
+}
+
+#fullName {
+    font-size: 17px;
+}
+
+#emailAdress{
+    font-size: 17px;
+}
+
+#phone{
+    font-size: 17px;
+}
+
+#message{
+    font-size: 17px;
+}
+
+/* hace falta darle una classe o se puede poner solo nombre de la seccion o del div y button? */
+.submit-contact{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 0px;
+    background-color: #072AC8;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 36px;
+}
