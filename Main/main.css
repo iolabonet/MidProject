@@ -196,3 +196,26 @@ footer img{
   justify-content: space-between;
   text-align: left;
 }
+
+
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  body header {
+    background-color: #072AC8;
+  }
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+  body header {
+    background-color: #FFC600;
+  }
+}
+
+
+/*MOBILE Y TABLET*/
+@media (max-width: 1023px) {
+  .heroSection .hero {
+    display: none;
+  }
+}

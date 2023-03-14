@@ -126,7 +126,7 @@ button.nav-button{
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  /* to do: quitar Display block y centrar texto. */
+
 }
 
 .targetsImatge{
@@ -364,21 +364,36 @@ text-align: center;
   gap: 30px;
 }
 .formContact{
-  width: 393px;
+  width: 611px;           
   height: 80px;
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
 }
 .formMail{
   color: #FFFFFF;
-  position: relative;
+  width: 100%;
+  height: 80px;
 }
-.email{
+.boxMail{
+  display: flex;
   width: 393;
   height: 80px;
   border: 0px;
   text-align: left;
+}
+
+#formContact{
+  width: 90%;
+  background-image: url(./Assets/newsletter/icon/mail.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  text-align: left;
+  background-position: left;
+}
+
+input {
+  text-align: left;
+  padding-left: 75px;
 }
 .btnForm{
   border: 0px;
@@ -393,30 +408,24 @@ text-align: center;
   padding: 15px 36px;
 }
 
+/*TABLET*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  body header {
+    background-color: #072AC8;
+  }
+}
+
+/*MOBILE*/
+@media (max-width: 767px) {
+  body header {
+    background-color: #FFC600;
+  }
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media (min-width: 650px) and (max-width: 999px) {
-    .responsive-div {
-      background-color: ;
-    }
-  } */ 
+/*MOBILE Y TABLET*/
+@media (max-width: 1023px) {
+  .heroSection .hero {
+    display: none;
+  }
+}
