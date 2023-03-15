@@ -53,12 +53,28 @@ header img {
   height: 18px;
 }
 
+.nav-Bar{
+  position: sticky;
+  z-index: 10;
+}
+
 .topNav {
   justify-content: space-between;
   display: flex;
   align-items: center;
   gap: 20px;
   color: #072AC8;
+  text-decoration: none;
+}
+
+.topNav a{
+  text-decoration: none;
+  color: #6B708D;
+}
+
+.topNav a:hover {
+  color:#072AC8;
+  text-decoration: underline;
 }
 
 .nav-button {
@@ -177,6 +193,7 @@ h4 {
   font-weight: 500;
   line-height: 38px;
   color: #FFC600;
+  text-align: center;
 }
 
 .buttonlearnMore {
