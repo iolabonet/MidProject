@@ -28,21 +28,6 @@
   bottom: 211px;
 }
 
-button.nav-button{
-  display: flex;
-  align-items: center;
-  width: 150px;
-  height: 52px;
-  gap: 10px;
-  padding: 25px;
-  background-color: #072AC8;
-  color: #E5E5E5;
-  border: #072AC8;
-  font-size: 17px;
-  top: 479px;
-  right: 1120px;
-}
-
 #inTouch{
   display: flex;
   justify-content: left;
@@ -99,6 +84,7 @@ button.nav-button{
   align-items: center; 
   filter: grayscale(100%);
 }
+
 .projects{
   width: 100em;
   height: 561px;
@@ -134,109 +120,14 @@ button.nav-button{
   height: 240px;
 }
 
-.testimonialS {
-  max-width: 1320px;
-  height: 100%;
-  background-color: #292E47;
-  background-image: url(./Assets/testimonial-section/orbit.png);
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat;
-  display: flex;
-}
-.col-1 {
-  margin: 51px;
-  display: flex;
-  flex-direction: column;
-  max-width: 40%;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.col-1 img{
-  width: 150px;
-  height: 150px;
-
-}
-.col-3 {
-  margin: 51px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-.col-3 img{
-  width: 150px;
-  height: 150px;
-}
-.testimonialS .col-2 h3 {
-  color: #F4F6FC; 
-}
-.col-2{
-  max-width: 80%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 120px 10px;
-  gap: 120px;
-}
-.col-2 p{
-text-align: center;
-}
-
-.col-2 img{
-  border-radius: 50%;
-  height:50px;
-  width:50px;
-}
-/* .kristin{
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-} */
-
-.ourService{
-  width: 100em;
-  height: 597px;
-  background-color: #E5E5E5;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 23px;
-}
-
-.projects-area{
-  max-height: 444px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-}
-.targetProject{
-  height: 100%;
-  margin: 0;
-  flex: 1;
+.targetProjectText{
+  height: 50%;
+  padding: 30px;
   background-color: #FFFFFF;
+  display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  /* to do: quitar Display block y centrar texto. */
-}
-
-.targetsImatge{
-  width: 340px;
-  height: 240px;
-}
-
-.targetProjectText{
-    height: 50%;
-    padding: 30px;
-    background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
 }
 
 .testimonialS {
@@ -273,15 +164,17 @@ text-align: center;
   width: 150px;
   height: 150px;
 }
+
 .testimonialS .col-2 h3 {
   color: #F4F6FC; 
 }
+
 .col-2{
   max-width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 120px 10px 51px;
+  margin: 120px 10px 60px;
   gap: 120px;
 }
 .col-2 p{
@@ -297,8 +190,15 @@ text-align: center;
 .kristin{
   width: 171px;
   display: flex;
-  justify-content: center;
-  /*TO DO: Poner texto al lado de la imagen*/
+  justify-content:space-between;
+  width: auto;
+  text-align: justify;
+}
+
+.kristinText{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .ourService{
@@ -339,8 +239,6 @@ text-align: center;
 .cta{
   max-width: 1320px;
   height: 100%;
-  /* margin: 0 60px; */
-  /* background-color: #FFC600; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,10 +274,11 @@ text-align: center;
 }
 .boxMail{
   display: flex;
-  width: 393;
+  width: 393px;
   height: 80px;
   border: 0px;
   text-align: left;
+  padding-left: 50px;
 }
 
 #formContact{

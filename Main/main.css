@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;
 }
 
 /* Colors:
@@ -18,20 +18,22 @@
 #ECF7FF
 #FFC600 */
 
-
-body{
+body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #E5E5E5;
- }
+}
 
-body header, section, footer {
+body header,
+section,
+footer {
   margin: 0 auto;
   max-width: 1100px;
 }
 
-body section, footer {
+body section,
+footer {
   margin-top: 200px;
 }
 
@@ -58,50 +60,65 @@ header img {
   gap: 20px;
   color: #072AC8;
 }
-header button.nav-button {
+
+.nav-button {
   display: flex;
-  width: 8em;
-  height: 3em;
-  gap: 20em;
+  align-items: center;
+  width: 150px;
+  height: 52px;
+  gap: 10px;
+  padding: 25px;
   background-color: #072AC8;
   color: #E5E5E5;
   border: #072AC8;
+  font-size: 17px;
+  top: 479px;
+  right: 1120px;
 }
 
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Roboto';
 }
 
 h1 {
-  font-weight: 700;  
+  font-weight: 700;
   font-size: 60px;
   line-height: 70px;
   color: #292E47;
 }
-h2{
+
+h2 {
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
   color: #514D67;
 }
-h3{
+
+h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
 }
-h4{
+
+h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #514D67;
 }
+
 .bIM-24 {
   font-size: 24px;
   font-weight: 500;
   line-height: 28px;
   color: #292E47;
 }
-.hR-17{
+
+.hR-17 {
   font-size: 17px;
   font-weight: 400;
   line-height: 25;
@@ -125,7 +142,14 @@ h4{
   font-weight: 400;
 }
 
-.c1R-15  {
+.hTR-17-blue {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #A2D6F9;
+}
+
+.c1R-15 {
   font-size: 15px;
   font-weight: 400;
 }
@@ -134,27 +158,35 @@ h4{
   font-size: 13px;
   font-weight: 400;
 }
-.hLTR-17{
+
+.c2R-13-white {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #F4F6FC;
+}
+
+.hLTR-17 {
   font-size: 17px;
   font-weight: 400px;
   color: #6B708D;
 }
 
-.yellowP{
+.yellowP {
   font-size: 24px;
   font-weight: 500;
   line-height: 38px;
   color: #FFC600;
 }
 
-.buttonlearnMore{
+.buttonlearnMore {
   font-size: 17px;
   font-weight: 400;
   line-height: 25px;
   color: #072AC8;
 }
 
-.footerContain{
+.footerContain {
   width: 100em;
   max-width: 1100px;
   height: 100%;
@@ -164,7 +196,8 @@ h4{
   align-items: center;
   gap: 405px;
 }
-.logoAdress{
+
+.logoAdress {
   width: 260px;
   height: 112;
   display: flex;
@@ -173,15 +206,17 @@ h4{
   gap: 30px;
 }
 
-footer img{
+footer img {
   width: 98px;
   height: 30px;
 }
-.adress{
+
+.adress {
   font-size: 17px;
   font-weight: 400;
   color: #6B708D;
 }
+
 .navigationWeb {
   width: 435px;
   height: 112px;
@@ -189,7 +224,8 @@ footer img{
   gap: 106px;
 
 }
-.hub{
+
+.hub {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
