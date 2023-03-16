@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MidProject</title>
     <link rel="stylesheet" href="../main.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./contact.css" />
 </head>
 
 <body>
@@ -22,44 +22,29 @@
         <button class="nav-button" href="#contact">Contact Us
     </header>
 
-    <!-- <section class="form-register">
-        <h1>Contact Us</h1>
-        <input class="controls" type="text" name="Full Name" id="fullName" placeholder="Enter your full name">
-        <input class="controls" type="email" name="emailAdress" id="emailAdress" placeholder="Enter your email address">
-        <input class="controls" type="number" name="phone" id="phone" placeholder="Enter your phone">
-        <textarea class="controls" type="text" name="message" id="message" placeholder= "Write your message here ..."></textarea>
-        <input class="submit-contact" type="submit" value="Submit">
-    </div> 
-    </section>
-         -->
-
-    <div class="form__container">
-        <form action="/some-url" method="post">
-            <h1>Contact Us</h1>
-            <div class="form-grup">
-                <!-- <div class="controls"> -->
-                <label class="form_label" for="fullName">Full Name *</label>
+    <section class="form__container">
+        <h1 class="formTitle">Contact Us</h1>
+        <div class="formContainerFlex">
+            <form action="/some-url" method="post">
+                <label for="fullName">Full Name *</label>
                 <input type="text" name="Full Name" id="fullName" placeholder="Enter your full name">
-            </div>
-            <div class="controls">
-                <div class="email-dates">
-                    <label class="form_label" for="emailAdress">Email</label>
-                    <input type="email" name="emailAdress" id="emailAdress" placeholder="Enter your email address">
-                </div>
                 <div class="controls">
-                    <label class="form_label" for="phone">Phone</label><br>
-                    <input type="number" name="phone" id="phone" placeholder="Enter your phone">
+                    <div class="controlLabel">
+                        <label for="emailAdress">Email</label>
+                        <input type="email" name="emailAdress" id="emailAdress" placeholder="Enter your email address">
+                    </div>
+                    <div class="controlLabel">
+                        <label for="phone">Phone</label>
+                        <input type="number" name="phone" id="phone" placeholder="Enter your phone">
+                    </div>
                 </div>
-            </div>
-            <div class="controls">
-                <label class="form_label" for="message">Message</label><br>
+                <label for="message">Message</label>
                 <textarea rows="10" name="message" id="message" placeholder="Write your message here ..."></textarea>
-            </div>
-            <button class="submit-contact" type="submit">Submit</button>
-    </div>
+                <button class="submit-contact" type="submit">Submit</button>
+    </section>
     </div>
     </form>
-
+    </div>
     <footer>
         <div class="footerContain">
             <div class="logoAdress">

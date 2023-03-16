@@ -23,57 +23,65 @@
     </header>
 
     <section class="heroSection">
-        <div class="empower">
-            <h1>Empower Your </p>
-                Business With </p>
-                Stunning Design!</h1>
-            <p class="cicleDigital">Circle is a digital design and development studio. We design and develop astonishing
-                websites and mobile apps.</p>
-            <div id="inTouch">
-                <button class="nav-button" href="#Get in touch">Get in touch</button>
-                <p id="seeourWork">See our work</p>
+        <div class="heroContainerFlex">
+            <div class="empower" id="leftHero">
+                <h1>Empower Your </p>
+                    Business With </p>
+                    Stunning Design!</h1>
+                <p class="cicleDigital">Circle is a digital design and development studio. We design and develop
+                    astonishing
+                    websites and mobile apps.</p>
+                <div id="inTouch">
+                    <button class="nav-button" href="#Get in touch">Get in touch</button>
+                    <p id="seeourWork">See our work</p>
+                </div>
             </div>
-        </div>
-        <div class="hero">
-            <img id="creditCards" src="./Assets/hero-section/card-1.png">
-            <img id="ok" src="./Assets/hero-section/card-2.png">
+            <div class="hero" id="rightHero">
+                <img id="amigo" src="./Assets/hero-section/hero-image.png" alt="">
+                <img id="creditCards" src="./Assets/hero-section/card-1.png">
+                <img id="ok" src="./Assets/hero-section/card-2.png">
+
+            </div>
         </div>
     </section>
 
-    <section class="clientSection">
-        <img src="./Assets/logos/airbnb-logo.svg">
-        <img src="./Assets/logos/google-logo.svg">
-        <img src="./Assets/logos/microsoft-logo.svg">
-        <img src="./Assets/logos/fedex-logo.svg">
-        <img src="./Assets/logos/amazon-logo.svg">
+    <section class="clientsContainerFlex">
+        <div class="clientSection">
+            <img src="./Assets/logos/airbnb-logo.svg">
+            <img src="./Assets/logos/google-logo.svg">
+            <img src="./Assets/logos/microsoft-logo.svg">
+            <img src="./Assets/logos/fedex-logo.svg">
+            <img src="./Assets/logos/amazon-logo.svg">
+        </div>
     </section>
 
     <section class="projects" id="myProjects">
-        <h3>Recent</p>
-            Projects</h3>
-        <div class="projects-area">
-            <div class="targetProject">
-                <img class="targetsImatge" src="./Assets/projects-section/1.jpg">
-                <div class="targetProjectText">
-                    <p class="bIM-24">Simplify</p>
-                    <p class="hR1">UI Design & App Development</p>
-                    <a class="buttonlearnMore" href="#simplify">Learn more</a>
+        <div class="projectsContainerFlex">
+            <h3>Recent Projects</h3>
+            <div class="projects-area">
+                <div class="targetProject">
+                    <img class="targetsImatge" src="./Assets/projects-section/1.jpg">
+                    <div class="targetProjectText">
+                        <p class="bIM-24">Simplify</p>
+                        <p class="hR1">UI Design & App Development</p>
+                        <a class="buttonlearnMore" href="#simplify">Learn more</a>
+                    </div>
                 </div>
-            </div>
-            <div class="targetProject">
-                <img class="targetsImatge" src="./Assets/projects-section/2.jpg">
-                <div class="targetProjectText">
-                    <p class="bIM-24">Dashcoin</p>
-                    <p class="hR1">Web Development</p>
-                    <a class="buttonlearnMore" href="#dashcoin">Learn more</a>
+                <div class="targetProject">
+                    <img class="targetsImatge" src="./Assets/projects-section/2.jpg">
+                    <div class="targetProjectText">
+                        <p class="bIM-24">Dashcoin</p>
+                        <p class="hR1">Web Development</p>
+                        <a class="buttonlearnMore" href="#dashcoin">Learn more</a>
+                    </div>
                 </div>
-            </div>
-            <div class="targetProject">
-                <img class="targetsImatge" src="./Assets/projects-section/3.jpg">
-                <div class="targetProjectText">
-                    <p class="bIM-24">Vectorify</p>
-                    <p class="headline-text-medium">User Experience Design</p>
-                    <a class="buttonlearnMore" href="#vectorify">Learn more</a>
+                <div class="targetProject">
+                    <img class="targetsImatge" src="./Assets/projects-section/5.jpg">
+                    <div class="targetProjectText">
+                        <p class="bIM-24">Vectorify</p>
+                        <p class="headline-text-medium">User Experience Design</p>
+                        <a class="buttonlearnMore" href="#vectorify">Learn more</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,7 +147,6 @@
                         <p class="bIM-24">User Interface Design</p>
                         <a class="buttonlearnMore" href="#UserinterfaceDesign">Learn more</a>
                     </div>
-
                     <div class="serviceTarget_tYm">
                         <img class="iconImg_tYm" src="./Assets/services-section/icons/2.svg">
                         <p class="bIM-24">User Experience Design></p>
@@ -169,29 +176,30 @@
     </section>
 </body>
 
-<footer>
-    <div class="footerContain">
-        <div class="logoAdress">
-            <img src="./Assets/logos/circle.svg">
-            <address class="address">2972 Westheimer Rd. Santa Ana,<br \>
-                Illinois 85486</address>
-            </address>
-        </div>
-        <div class="navigationWeb">
-            <div class="hub">
-                <p class="hLTR-17"><a href="http://"></a>Team</p>
-                <p class="hLTR-17"><a href="http://"></a>Press</p>
-            </div>
-            <div class="hub">
-                <p class="hLTR-17"><a href="http://"></a>Services</p>
-                <p class="hLTR-17"><a href="http://"></a>Projects</p>
-            </div>
-            <div class="hub">
-                <p class="hLTR-17"><a href="http://"></a>About Us</p>
-                <p class="hLTR-17"><a href="http://"></a>Privacy Policy</p>
-            </div>
+<footer class="footerContain">
+
+    <div class="logoAdress">
+        <img src="./Assets/logos/circle.svg">
+        <div class="adressTextContainer">
+            <div class="address">2972 Westheimer Rd. Santa Ana,<br \>
+                Illinois 85486</div>
         </div>
     </div>
+    <div class="navigationWeb">
+        <div class="hub">
+            <p class="hLTR-17"><a href="http://"></a>Team</p>
+            <p class="hLTR-17"><a href="http://"></a>Press</p>
+        </div>
+        <div class="hub">
+            <p class="hLTR-17"><a href="http://"></a>Services</p>
+            <p class="hLTR-17"><a href="http://"></a>Projects</p>
+        </div>
+        <div class="hub">
+            <p class="hLTR-17"><a href="http://"></a>About Us</p>
+            <p class="hLTR-17"><a href="http://"></a>Privacy Policy</p>
+        </div>
+    </div>
+
 </footer>
 
 </html>

@@ -24,5 +24,6 @@ Rama contact: Pendiente de resolver dudas del css del formulario.
 
 Pequeña muesta de JS.
 
+Retos para proximos proyectos:
 
-De haber tenido más tiempo y para un próximo proyecto me gustaría incorporar el menú "burger" en la barra de navegación, así como elaborar distintos diseños de sección diferentes para tablet y mobile.
+Incorporar el menú "burger" en la barra de navegación, así como incorporar distintos diseños de sección para tablet y mobile.
