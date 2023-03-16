@@ -53,7 +53,7 @@ header img {
   height: 18px;
 }
 
-.nav-Bar{
+.nav-Bar {
   position: sticky;
   z-index: 10;
 }
@@ -67,13 +67,13 @@ header img {
   text-decoration: none;
 }
 
-.topNav a{
+.topNav a {
   text-decoration: none;
   color: #6B708D;
 }
 
 .topNav a:hover {
-  color:#072AC8;
+  color: #072AC8;
   text-decoration: underline;
 }
 
@@ -253,22 +253,217 @@ footer img {
 
 /*TABLET*/
 @media (min-width: 768px) and (max-width: 1023px) {
-  body header {
-    background-color: #072AC8;
+
+  /* body header {
+    background-color: #6B708D;
+  } */
+  footer .footerContain {
+    gap: 250px
   }
 }
 
 /*MOBILE*/
 @media (max-width: 767px) {
+  body {
+    max-width: 390px;
+  }
+
   body header {
-    background-color: #FFC600;
+    background-color: transparent;
+    align-items: flex-start;
+    width: auto;
+  }
+
+  .nav-Bar a {
+    font-size: 17px;
+  }
+
+  .nav-Bar a :hover {
+    color: #072AC8;
+  }
+
+  header .nav-button {
+    display: none;
+  }
+
+  .herosection {
+    height: 500px;
+    gap: 10px;
+  }
+
+  .empower {
+    width: 100%;
+    /* height: 400px; */
+  }
+
+  .empower h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .cicleDigital {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #inTouch {
+    /* justify-content: center; */
+  }
+
+  #myProjects.projects {
+    width: 390px;
+    height: 700px;
+  }
+
+  .projects .projects-area {
+    flex-direction: column;
+    width: auto;
+    margin-left: 45px;
+    gap: 5px;
+  }
+
+  .projects .targetProject .targetsImatge {
+    height: 60px;
+
+  }
+
+  /* align-items: center; */
+
+  .cta .yellowBox {
+    background-color: #E5E5E5;
+  }
+
+  .cta .yellowBox .insideYellow {
+    max-width: 360px;
+    margin: 5 5 5;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  footer .footerContain {
+    height: 100px;
+    margin: 30;
+  }
+
+  footer .footerContain .navigationWeb {
+    gap: 75px
+  }
+
+  footer .footerContain .navigationWeb .hub {
+    justify-content: space-around;
+  }
+
+  footer .footerContain .navigationWeb {
+    width: auto;
+    gap: auto;
+    justify-content: center;
+  }
+
+  footer .footerContain .navigationWeb .hub {
+    justify-content: center;
+
+  }
+
+  footer .footerContain {
+    margin: 20;
+  }
+
+  .logoAdress {
+    display: none;
   }
 }
 
 
-/*MOBILE Y TABLET*/
+
+/*MOBILE & TABLET*/
 @media (max-width: 1023px) {
+  body {
+    margin-left: 15px;
+  }
+
+  body section,
+  footer {
+    margin-top: 10px;
+  }
+
+  .nav-Bar img {
+    display: none;
+  }
+
+  .nav-Bar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nav-Bar .topNav {
+    font-size: 40px;
+  }
+
+  .nav-Bar .topNav :hover {
+    color: #FFC600;
+
+  }
+
+  header .nav-button {
+    font-size: 20px;
+    background-color: rgb(219, 113, 64);
+    border: 0.5px solid rgb(219, 113, 64);
+    border-radius: 1em;
+    text-decoration: none;
+
+  }
+
+  .heroSection {
+    height: 300px;
+    /* width: 100%; */
+  }
+
   .heroSection .hero {
+    display: none;
+    /* ocupar todo el ancho disponible y centrar */
+  }
+
+  body .clientSection {
+    display: none;
+  }
+
+  .projects h3 {
+    display: none;
+  }
+
+  .projects .projects-area .targetsImatge {
+    width: 300px;
+  }
+
+  .projects .projects-area #myProjects {
+    justify-self: center;
+    max-width: 50%;
+  }
+
+  .projects .targetProject {
+    height: 50%;
+  }
+
+  .testimonialS {
+    max-width: 1000px;
+  }
+
+  #myService.ourService {
+    display: none;
+  }
+
+  .cta .yellowBox {
+    max-width: 900px;
+    padding: 30px;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  section.ourService_tYm {
     display: none;
   }
 }

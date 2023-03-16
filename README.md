@@ -14,7 +14,15 @@ Week 7:
 Desarollar la home page y css.
 Momentos desesperantes y frustrantes.
 Cambio de pc.
-Finalizada la home y el css, pendiente de resolver pequeñas dudas.
+Finalizada la home: html y el css, pendiente de resolver pequeñas dudas.
+Crear ramas project y contact: con los html y css comunes.
 
 Week 8:
-Crear rama project junto con html y css.
+Rama project completada.
+Rama contact: Pendiente de resolver dudas del css del formulario.
+@media queries con diseño distinto para el apartado de "our service".
+
+Pequeña muesta de JS.
+
+
+De haber tenido más tiempo y para un próximo proyecto me gustaría incorporar el menú "burger" en la barra de navegación, así como elaborar distintos diseños de sección diferentes para tablet y mobile.
