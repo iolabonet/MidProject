@@ -33,10 +33,10 @@ footer {
   max-width: 100%;
 }
 
-body section,
+/* body section,
 footer {
-  /* margin-top: 200px; */
-}
+  margin-top: 200px; 
+} */
 
 body header {
   display: flex;
@@ -278,9 +278,9 @@ footer img {
     color: #072AC8;
   }
 
-  header.nav-button {
-    /* display: none; */
-  }
+  /* header.nav-button {
+    display: none; 
+  } */
 
   .heroSection {
     height: 500px;
@@ -355,7 +355,9 @@ footer img {
     flex-direction: column;
   }
 
-  section.ourService_tYm {}
+  /* section.ourService_tYm {
+
+  } */
 
   h2 {
     font-size: 30px;

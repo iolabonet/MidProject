@@ -21,7 +21,6 @@ form {
 
 /* 
 .form-register h1 {
-  
 } */
 
 .controls {
@@ -39,24 +38,21 @@ form {
 
 /*TABLET*/
 @media (min-width: 768px) and (max-width: 1023px) {
-  .form__container {
-    /* margin-top: 40px; */
-  }
+  /* .form__container {
+    margin-top: 40px;
+  } */
 }
 
 /*MOBILE*/
 @media (max-width: 767px) {
-  body header {
-    /* max-height: 400px; */
-
-  }
+  /* body header {
+    max-height: 400px; 
+  } */
 }
 
 
 /*MOBILE Y TABLET*/
 @media (max-width: 1023px) {
-  form.form-register.form__container {
-    /* margin-top: 50px; */
-
+  /* form.form-register.form__container {
+    margin-top: 50px;  */
   }
-}
