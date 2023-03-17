@@ -180,12 +180,7 @@ input {
 @media (max-width: 767px) {
   body header {
     width: 100%;
-    align-items: center;
-    background-color: #FFC600;
-  }
-
-  .nav-Bar .topNav {
-    font-size: 25px;
+    background-color: transparent;
   }
 
   .SimplifySection {
@@ -201,20 +196,6 @@ input {
   .SimplifySection .aliqua img {
     width: 100%;
   }
-
-  section.projects {
-    width: 390px;
-    height: 200px;
-  }
-
-  .projects-area {
-    height: 600px;
-  }
-
-  .targetProject .targetsImatge {
-    display: none;
-  }
-
 }
 
 
@@ -230,11 +211,13 @@ input {
   }
 
   section.projects {
-    height: 600px;
+    height: auto;
+    align-items: center;
+    background-color: rgb(127, 255, 133);
   }
 
-  div.projects-area {
-    gap: 10px;
+  div.targetProjectText {
+    background-color: rgb(127, 255, 133);
   }
 
 }

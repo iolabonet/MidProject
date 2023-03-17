@@ -7,17 +7,6 @@
   box-sizing: border-box;
 }
 
-/* Colors:
-#072ACB
-#43D2FF
-#A2D6F9
-#D1EDFF
-#292E47
-#6B708D
-#F2F4FC
-#ECF7FF
-#FFC600 */
-
 body {
   display: flex;
   flex-direction: column;
@@ -29,14 +18,8 @@ body {
 body header,
 section,
 footer {
-  /* margin: 0 auto; */
   max-width: 100%;
 }
-
-/* body section,
-footer {
-  margin-top: 200px; 
-} */
 
 body header {
   display: flex;
@@ -66,7 +49,6 @@ header img {
   justify-content: space-between;
   display: flex;
   align-items: center;
-  /* gap: 20px; */
   width: 20%;
   color: #072AC8;
   text-decoration: none;
@@ -108,7 +90,6 @@ h4 {
 h1 {
   font-weight: 700;
   font-size: 70px;
-  /* line-height: 70px; */
   color: #292E47;
 }
 
@@ -278,10 +259,6 @@ footer img {
     color: #072AC8;
   }
 
-  /* header.nav-button {
-    display: none; 
-  } */
-
   .heroSection {
     height: 500px;
     gap: 10px;
@@ -289,7 +266,6 @@ footer img {
 
   .empower {
     width: 100%;
-    /* height: 400px; */
   }
 
   .empower h1 {
@@ -299,33 +275,21 @@ footer img {
   }
 
   .cicleDigital {
-    /* width: 100%; */
     font-size: 12px;
     text-align: center;
   }
 
-  /* #inTouch {
-    justify-content: center;
-  } */
-
   #myProjects.projects {
-    width: 390px;
-    height: 700px;
-  }
-
-  .projects .projects-area {
-    flex-direction: column;
     width: auto;
-    margin-left: 45px;
-    gap: 5px;
+    height: auto;
   }
 
-  .projects .targetProject .targetsImatge {
-    height: 60px;
+  img.targetsImatge {
+    display: none;
   }
-
-  .projects .targetProject .targetsProjectText {
-    height: 30%;
+  
+  div.targetProjectText {
+    padding: 0;
   }
 
   .testimonialS {
@@ -348,62 +312,25 @@ footer img {
     text-align: center;
     font-size: 25px;
   }
-
-  /* align-items: center; */
-
-  .ourServiceArea_tYm {
-    flex-direction: column;
+  
+  section.ourService_tYm {
+    background-color: rgb(127, 255, 133);
   }
-
-  /* section.ourService_tYm {
-
-  } */
-
-  h2 {
-    font-size: 30px;
-    /* flex-direction: column; */
-  }
-
-  .cta .yellowBox {
-    background-color: #E5E5E5;
-  }
-
-  .cta .yellowBox .insideYellow {
-    max-width: 360px;
-    margin: 5 5 5;
-  }
-
   section.cta {
     background-color: #072AC8;
-    width: 390px;
+    width: 100%;
   }
 
-  .yellowBox {
-    width: auto;
-    height: 300px;
+  p.bIR-20 {
+    display: none;
   }
-
-  .insideYellow {
-    margin: 15px;
-  }
-
   form.formContact {
     width: 100%;
     height: 40px;
-    margin-top: 10px;
   }
 
   input#formContact.boxMail {
-    width: 250px;
-    height: 40px;
-    padding-left: 45px;
-  }
-
-  /* .formMail {
-    centrar
-  } */
-  input#formContact.boxMail {
-    font-size: 10px;
+    width: auto;
   }
 
   button.btnForm {
@@ -451,9 +378,6 @@ footer img {
 /*TABLET*/
 @media (min-width: 768px) and (max-width: 1023px) {
 
-  /* body header {
-    background-color: #6B708D;
-  } */
   footer .footerContain {
     gap: 250px
   }
@@ -508,12 +432,10 @@ footer img {
 
   .heroSection {
     height: 300px;
-    /* width: 100%; */
   }
 
   .heroSection .hero {
     display: none;
-    /* ocupar todo el ancho disponible y centrar */
   }
 
   body .clientSection {
