@@ -17,7 +17,7 @@
 .empower {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-center;
   gap: 40px;
 }
 
@@ -348,6 +348,27 @@ input {
   text-align: center;
   padding: 15px 36px;
 }
+
+/*MOBILE*/
+@media (max-width: 767px) {
+  .heroSection {
+    margin-top: 4vh;
+  }
+  p.cicleDigital {
+    width: 100%;
+  }
+  #inTouch {
+    justify-content: space-between;
+  }
+  .clientsContainerFlex{
+    margin-top: 0;
+    height: 0;
+  }
+  .testimonialS {
+    margin-top: 4vh;
+    width: 100%;
+  }
+  }
 
 /*TABLET*/
 @media (min-width: 768px) and (max-width: 1023px) {

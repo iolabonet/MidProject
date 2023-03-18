@@ -1,3 +1,19 @@
+.nav-button a{
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 52px;
+  gap: 10px;
+  padding: 25px;
+  background-color: #072AC8;
+  color: #E5E5E5;
+  border: #072AC8;
+  font-size: 17px;
+  top: 479px;
+  right: 1120px;
+  text-decoration: none;
+}
+
 .SimplifySection {
   width: 100%;
   height: 1181px;
@@ -182,7 +198,7 @@ input {
     width: 100%;
     background-color: transparent;
   }
-
+  
   .SimplifySection {
     margin-top: 5px;
     width: 100%;
@@ -196,13 +212,50 @@ input {
   .SimplifySection .aliqua img {
     width: 100%;
   }
+
+  #myCta.cta {
+    margin-top: 5vh;
+  }
+
+  .insideYellow {
+    margin: 4vh;
+    gap: 4vh;
+  }
+
+  .formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  input#formContact.boxMail {
+    width: 100%;
+  }
 }
 
 
 /*MOBILE Y TABLET*/
 @media (max-width: 1023px) {
+  body {
+    padding: 1vh;
+  }
+  .nav-button a{
+    font-size: 15px;
+  }
+  header .nav-button a{
+    font-size: 17px;
+    color: #072AC8;
+    width: 100px;
+    background-color: rgb(64, 214, 219);
+    text-decoration: none;
+  }
+
   section.SimplifySection {
     margin-top: 100px;
+  }
+
+  section.SimplifySection .aliqua img {
+    width: auto;
   }
 
   section.SimplifySection .aliqua p {
@@ -211,13 +264,27 @@ input {
   }
 
   section.projects {
+    margin-top: 5vh;
+    width: 100%;
     height: auto;
     align-items: center;
     background-color: rgb(127, 255, 133);
+  }
+
+  img.targetsImatge {
+    width: 100%;
+  }
+
+  #myOtheProjects.projects {
+    width: 100%;
   }
 
   div.targetProjectText {
     background-color: rgb(127, 255, 133);
   }
 
+  .formContact {
+    width: 150%;
+  }
+  
 }
